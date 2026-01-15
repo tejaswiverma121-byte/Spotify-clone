@@ -8,6 +8,7 @@ btn.addEventListener('click',(e)=>{
     e.preventDefault();
     if(EnteredEmail.includes('@') && EnteredEmail.includes('.')){
         alert("Successfully registered");
+        window.location.href = "index.html";
     }
     else{
         const h3=document.createElement('h3');
