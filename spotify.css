@@ -122,6 +122,9 @@ background-color: rgb(72, 72, 72);
     text-decoration: underline;
     transform: scale(1.02);
 }
+a{
+    color: chartreuse;
+}
 .c5:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -129,7 +132,7 @@ background-color: rgb(72, 72, 72);
 }
 .c6{
     border:1px solid black;
-    background-color: aliceblue;
+    background-color: rgb(206, 146, 19);
     border-radius: 20px;
     width: 100px;
     height: 40px;
@@ -717,4 +720,12 @@ transform: scale(1.05);
 }
 .album7:hover{
 transform: scale(1.05);
+}
+.box{
+    font-size: 50px;
+    margin: 100px auto;
+    text-align: center;
+}
+button{
+    font-size: xx-large;
 }
